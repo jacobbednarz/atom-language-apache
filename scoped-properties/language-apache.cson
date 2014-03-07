@@ -1,0 +1,3 @@
+'.source.apache-config':
+  'editor':
+    'foldEndPattern': '^[ ]*(?x)\n\t\t(</(?i:FilesMatch|Files|DirectoryMatch|Directory|LocationMatch|Location|VirtualHost|IfModule|IfDefine|Perl)>\n\t\t)'
