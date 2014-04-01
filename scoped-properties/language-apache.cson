@@ -1,3 +1,4 @@
 '.source.apache-config':
   'editor':
+    'commentStart': '# '
     'foldEndPattern': '^[ ]*(?x)\n\t\t(</(?i:FilesMatch|Files|DirectoryMatch|Directory|LocationMatch|Location|VirtualHost|IfModule|IfDefine|Perl)>\n\t\t)'
