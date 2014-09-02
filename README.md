@@ -1,4 +1,3 @@
-# Apache syntax support in Atom
+# Syntax support for Apache configuration files in Atom. 
 
-Syntax and snippet support for Apache configuration files. Ported from
-[textmate/apache](https://github.com/textmate/apache.tmbundle) for Atom.
+Contributions are welcome and bonus are awarded for pull requests. Please fork and send a pull requests for updates to grammars, snippets or documentation.
