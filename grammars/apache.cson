@@ -250,6 +250,23 @@
     ]
   }
   {
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.apache-config'
+    'end': '\'(?!\')'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.apache-config'
+    'name': 'string.quoted.double.apache-config'
+    'patterns': [
+      {
+        'match': '\'\''
+        'name': 'constant.character.escape.apostrophe.apache'
+      }
+    ]
+  }
+  {
     'begin': '(</?)([a-zA-Z]+)'
     'captures':
       '1':
