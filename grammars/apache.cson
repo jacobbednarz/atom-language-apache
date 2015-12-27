@@ -250,18 +250,18 @@
     ]
   }
   {
-    'begin': '\''
+    'begin': "'"
     'beginCaptures':
       '0':
         'name': 'punctuation.definition.string.begin.apache-config'
-    'end': '\'(?!\')'
+    'end': "'(?!')"
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.apache-config'
     'name': 'string.quoted.double.apache-config'
     'patterns': [
       {
-        'match': '\'\''
+        'match': "''"
         'name': 'constant.character.escape.apostrophe.apache'
       }
     ]
