@@ -10,4 +10,4 @@
     'body': 'Options ${1:${2:All }${3:ExecCGI }${4:FollowSymLinks }${5:Includes }${6:IncludesNOEXEC }${7:Indexes }${8:MultiViews }${9:SymLinksIfOwnerMatch}}'
   'Virtual Host':
     'prefix': 'vhost'
-    'body': '<VirtualHost ${1:example.org}>\n\tServerAdmin webmaster@$1\n\tDocumentRoot /www/vhosts/$1\n\tServerName $1\n\tErrorLog logs/$1-error_log\n\tCustomLog logs/$1-access_log common\n</VirtualHost>'
+    'body': '<VirtualHost ${1:example.org}>\n\tServerAdmin ${2:webmaster@example.org}\n\tDocumentRoot ${3:/www/vhosts/}\n\tServerName $4\n\tErrorLog ${5:logs/error_log}\n\tCustomLog ${6:logs/access_log common}\n</VirtualHost>'
