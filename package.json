@@ -1,6 +1,6 @@
 {
   "name": "language-apache",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "description": "Syntax and snippet support for Apache configuration files",
   "repository": "https://github.com/jacobbednarz/atom-language-apache",
