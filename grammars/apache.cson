@@ -99,6 +99,36 @@
     ]
   }
   {
+    'begin': '^[\\s]*((<)(Files(?:Match)?)(?:[\\s]+([^>]+))?(>))'
+    'beginCaptures':
+      '1':
+        'name': 'meta.tag.apache-config'
+      '2':
+        'name': 'punctuation.definition.tag.apache-config'
+      '3':
+        'name': 'entity.name.tag.apache-config'
+      '4':
+        'name': 'meta.toc-list.files.apache-config'
+      '5':
+        'name': 'punctuation.definition.tag.apache-config'
+    'end': '^[\\s]*((</)(Files(?:Match)?)[^>]*(>))'
+    'endCaptures':
+      '1':
+        'name': 'meta.tag.apache-config'
+      '2':
+        'name': 'punctuation.definition.tag.apache-config'
+      '3':
+        'name': 'entity.name.tag.apache-config'
+      '4':
+        'name': 'punctuation.definition.tag.apache-config'
+    'name': 'meta.files.apache-config'
+    'patterns': [
+      {
+        'include': '$base'
+      }
+    ]
+  }
+  {
     'begin': '^[\\s]*((<)(Location(?:Match)?)(?:[\\s]+([^>]+))?(>))'
     'beginCaptures':
       '1':
