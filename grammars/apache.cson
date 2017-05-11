@@ -228,7 +228,7 @@
             'include': '#vars'
           }
           {
-            'match': '[^ %]+'
+            'match': '[^\\s%]+'
             'name': 'string.regexp.rewrite-pattern.apache-config'
           }
           {
@@ -239,7 +239,7 @@
                 'include': '#vars'
               }
               {
-                'match': '[^ %\\n]+'
+                'match': '[^\\s%\\n]+'
                 'name': 'string.other.rewrite-substitution.apache-config'
               }
               {
